@@ -1,0 +1,5 @@
+2024-07-14 14:34:15,896 - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "E:\Desktop\TechNews-AnalysisSystem\src\main.py", line 247, in start_analysis
+    self.analysis_worker.update_crawler_progress.connect(self.update_crawler_progress)
+TypeError: decorated slot has no signature compatible with AnalysisWorker.update_crawler_progress[int]

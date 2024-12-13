@@ -1,0 +1,53 @@
+列出磁碟區 GAME 的資料夾 PATH
+磁碟區序號為 666B-4FFF
+E:.
+|   requirements.txt
+|   tree.txt
+|   
++---.idea
+|   |   .gitignore
+|   |   .name
+|   |   misc.xml
+|   |   modules.xml
+|   |   TechNews-AnalysisSystem.iml
+|   |   vcs.xml
+|   |   workspace.xml
+|   |   
+|   \---inspectionProfiles
+|           profiles_settings.xml
+|           
++---data
++---docs
+|       .gitignore
+|       README.md
+|       
+\---src
+    |   app_log.txt
+    |   main.py
+    |   __init__.py
+    |   
+    +---database
+    |       __init__.py
+    |       
+    +---scraping
+    |   |   scraper.py
+    |   |   __init__.py
+    |   |   
+    |   \---__pycache__
+    |           scraper.cpython-310.pyc
+    |           __init__.cpython-310.pyc
+    |           
+    \---utils
+        |   ContentAnalysis.py
+        |   DataCleaner.py
+        |   output_tokenized_df.csv
+        |   processed_data_multiprocess.csv
+        |   processed_data_single_core.csv
+        |   stock_dict.txt
+        |   technews_articles_content_copy.csv
+        |   __init__.py
+        |   
+        \---__pycache__
+                DataCleaner.cpython-310.pyc
+                __init__.cpython-310.pyc
+                
